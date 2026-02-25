@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunnanfold — Farm & Wine — Hotchkiss, Colorado</title>
+    <meta name="description" content="Sunnanfold is a farm and winery in Hotchkiss, Colorado, turning 300 days of Western Slope sun into great wine and good food.">
+    <link rel="stylesheet" href="https://use.typekit.net/epi2qmd.css">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 19px;
+        }
+
+        body {
+            font-family: "warnock-pro", Georgia, "Times New Roman", serif;
+            color: #2c2c2c;
+            background: url('assets/hero.jpg') center center / cover no-repeat fixed;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        /* Warm overlay on the fixed background */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: rgba(160, 120, 40, 0.22);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        /* Wordmark — fixed at top */
+
+        /* Scrolling content overlay */
+
+        .content-overlay {
+            position: relative;
+            z-index: 1;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .wordmark-header {
+            display: flex;
+            justify-content: center;
+            padding: 100px 24px 80px;
+        }
+
+        .wordmark-header .wordmark {
+            max-width: 360px;
+            width: 70vw;
+            height: auto;
+        }
+
+        .content-panel {
+            background-color: rgba(235, 225, 205, 0.93);
+        }
+
+        /* Body copy */
+
+        .copy {
+            padding: 80px 60px;
+        }
+
+        .copy-inner {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1rem;
+            line-height: 1.65;
+        }
+
+        .copy-inner p {
+            margin-bottom: 1.5em;
+        }
+
+        .copy-inner p:last-child {
+            margin-bottom: 0;
+        }
+
+        .copy-inner .key-line {
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+
+        /* Signup */
+
+        .signup {
+            padding: 60px 60px 80px;
+            text-align: center;
+        }
+
+        .signup-inner {
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        .signup-inner p {
+            font-size: 1.1rem;
+            margin-bottom: 2em;
+            line-height: 1.5;
+        }
+
+        /* Footer */
+
+        .footer {
+            padding: 40px 24px 48px;
+            text-align: center;
+            font-size: 0.78rem;
+            color: #8a8078;
+            letter-spacing: 0.03em;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 600px) {
+            html {
+                font-size: 17px;
+            }
+
+            .wordmark-header {
+                padding: 64px 24px 56px;
+            }
+
+            .wordmark-header .wordmark {
+                max-width: 260px;
+            }
+
+            .content-overlay {
+                max-width: 100%;
+            }
+
+            .copy {
+                padding: 64px 28px;
+            }
+
+            .signup {
+                padding: 48px 28px 64px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-overlay">
+        <header class="wordmark-header">
+            <img src="assets/wordmark-white.png" alt="Sunnanfold — Farm & Wine — Hotchkiss, Colorado" class="wordmark">
+        </header>
+
+        <div class="content-panel">
+            <section class="copy">
+                <div class="copy-inner">
+                    <p><em>Sun's enclosure.</em> That's the Old English meaning behind our name...and it's the idea behind everything we're doing.</p>
+
+                    <p>Colorado's Western Slope gets over 300 days of sun a year. That's an enormous amount of energy hitting the ground. The work of a farm is turning that energy into life, through vines, cover crops, pasture, and animals, each feeding the next.</p>
+
+                    <p class="key-line">A glass of wine is concentrated sunlight, transformed through soil, plants, and craft.</p>
+
+                    <p>We're building that kind of farm on 30 acres in Hotchkiss, Colorado. We're planting vines, raising animals, and learning to steward this place well. And we've recently begun to manage a nearby Pinot Gris vineyard whose fruit is the foundation of our first wines.</p>
+
+                    <p>We're working toward our first commercial release. Sign up to follow along.</p>
+                </div>
+            </section>
+
+            <section class="signup">
+                <div class="signup-inner">
+                    <script async data-uid="9e8a13a1df" src="https://silver-sage-farm.kit.com/9e8a13a1df/index.js"></script>
+                </div>
+            </section>
+
+            <footer class="footer">
+                &copy; 2026 Sunnanfold
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
